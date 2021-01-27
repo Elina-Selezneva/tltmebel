@@ -279,3 +279,25 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 /* конец стилей для Витражей */
+
+/* начало стилей для Статей */
+.articl_main {
+    width: 90%;
+    margin: 25px auto;
+}
+.articl__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39;
+}
+.articl__text img {
+    max-width: 100%;
+    display: block;
+    margin: 10px 0;
+}
+.articl__text a {
+    color: #1f364be0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* конец стилей для Статей */
