@@ -157,47 +157,125 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         width: 97.68%;
     }
 }
-
 /* конец стилей для страниц каталога */
 
-/* начало стилей для страницы товара */
-.main_produkt {
-    width: 90%;
+/* начало стилей для Витражей */
+.main_glass {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
-.Product-top {
-    margin-bottom: 30px;
-}
-.Product-topH1 {
-    font-size: 30px;
+.glass__top {
     margin: 12px 0 25px;
-}
-.Product-top__info {
-    padding: 0 0 0 30px;
+    padding-left: 15px;
     border-left: 3px solid #ffa707;
 }
-.Product-top__infoH2 {
-    font-size: 26px;
-    margin: 0 0 12px;
-    color: #ffa707;
+.glass__top-H1 {
+    font-size: 35px;
+    line-height: 1.48;
 }
-.Product-top__info_text {
-    font-size: 18px;
+.glass__allCatalog {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.glass__item {
+    width: 22%;
+    margin: 2px 2px 20px 2px;
+    transition-duration: 200ms
+}
+.glass__item:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(13, 21, 39, 0.5)
+}
+
+.glass__itemTop {
+    font-size: 16px;
+    line-height: 1.25;
     font-weight: 400;
-    line-height: 1.35;
-    color: #1f364bdb;
+    padding: 5px 12px;
+}
+.glass__itemImag {
+    width: 93%;
+    padding: 5px;
+    text-align: center;
+}
+.glass__itemImag img {
+    width: 100%;
+    padding-left: 15px;
 }
 
-.Product-imags img {
-    height: 350px;
-    margin: 2px;
-}
-@media (max-width: 430px) {
-    .main_produkt {
-        width: 96%;
+@media (max-width: 890px) {
+    .main_glass {
+        width: 93%;
     }
-    .Product-top__info {
-        padding-left: 10px;
+    .glass__itemTop {
+        font-size: 12px;
+    }
+    .glass__top-H1 {
+        line-height: 1.04;
+    }
+}
+@media (max-width: 640px) {
+    .glass__top-H1 {
+        font-size: 26px;
+    }
+    .glass__allCatalog {
+        justify-content: center;
+    }
+    .glass__item {
+        width: 45%;
+    }
+}
+@media (max-width: 385px) {
+    .glass__item {
+        width: 70%;
     }
 }
 
-/* конец стилей для страницы товара */
+.popup{
+
+}
+.popup img{
+
+}
+.show{
+    z-index: 999;
+    display: none;
+
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,.66);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.show .img-show{
+    background: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    display: block;
+    min-width: 300px;
+    text-align: center;
+}
+.img-show span{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 99;
+    cursor: pointer;
+    font-size: 25px;
+}
+.img-show img{
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+/* конец стилей для Витражей */
