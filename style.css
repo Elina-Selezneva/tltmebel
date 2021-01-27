@@ -461,7 +461,7 @@ color: #fff;
 
 .about-us__img {
     height: 600px;
-    background: url(page_img/about-us__img.jpg) no-repeat;
+    background: url(/page_img/about-us__img.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -498,7 +498,6 @@ color: #fff;
 
 
 .make_credit__button_margin {
-    display: block;
     margin: 50px auto 20px auto;
     display: flex;
     align-items: center;
@@ -506,7 +505,7 @@ color: #fff;
 
 }
 .bloks6__block_fon {
-    background: url(page_img/sofa__img.png) no-repeat;
+    background: url(/page_img/sofa__img.png) no-repeat;
     background-size: cover;
 }
 
@@ -515,27 +514,27 @@ color: #fff;
 }
 
 .bloks6__block_fon2 {
-    background: url(page_img/peskastui__img.png) no-repeat;
+    background: url(/page_img/peskastui__img.png) no-repeat;
     background-size: cover;
 }
 
 .bloks6__block_fon3 {
-    background: url(page_img/matras__img.png) no-repeat;
+    background: url(/page_img/matras__img.png) no-repeat;
     background-size: cover;
 }
 
 .bloks6__block_fon4 {
-    background: url(page_img/kitchen_img.png) no-repeat;
+    background: url(/page_img/kitchen_img.png) no-repeat;
     background-size: cover;
 }
 
 .bloks6__block_fon5 {
-    background: url(page_img/wardrobe__img.png) no-repeat;
+    background: url(/page_img/wardrobe__img.png) no-repeat;
     background-size: cover;
 }
 
 .bloks6__block_fon6 {
-    background: url(page_img/vetrag__img.png) no-repeat;
+    background: url(/page_img/vetrag__img.png) no-repeat;
     background-size: cover;
 }
 .glass__top {
