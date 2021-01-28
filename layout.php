@@ -22,11 +22,15 @@
                 <div class="little-text">Интернет-магазин мебели в <br> Тольятти от Татьяны Ананченко</div>
             </div>
         </div>
-        <div class="header__phone big_text flex_center stile_Garamond-bolt"><i class="fa fa-phone phone-yellow"
-                                                                               aria-hidden="true"></i>+7-905-306-87-88
-        </div>
-        <div class="header__button-make-order flex_center">
-            <div class="button js-button-campaign flex_center button_yellow">Сделать заказ</div>
+        <div class="header__infoBut">
+            <div class="header__phone big_text flex_center stile_Garamond-bolt">
+                <a href="tel:+79053068788"><i class="fa fa-phone phone-yellow" aria-hidden="true"></i>
+                +7-905-306-87-88
+                </a>
+            </div>
+            <div class="header__button-make-order flex_center">
+                <div class="button js-button-campaign flex_center button_yellow">Сделать заказ</div>
+            </div>
         </div>
     </div>
     <div id="menu">
@@ -170,7 +174,9 @@
     <hr class="header__hr">
 </header>
 <div class="main-content">
-    <main class="content"><?= $content; ?></main>
+    <main class="content"><?php
+        include 'components/product.php';
+        ?></main>
 </div>
 
 <footer class="footer">

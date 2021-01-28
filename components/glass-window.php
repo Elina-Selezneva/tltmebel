@@ -6,7 +6,7 @@
         <a href="#" class="glass__item">
             <div class="">
                 <h2 class="glass__itemTop stile_Robot-bolt ">Однодверные. Абстракция.</h2>
-                <div class="glass__itemImag popup">
+                <div class="glass__itemImag popupGlass">
                     <img src="/imag/glass1.jpg" alt="">
                 </div>
             </div>
@@ -14,7 +14,7 @@
         <a href="#" class="glass__item">
             <div class="">
                 <h2 class="glass__itemTop stile_Robot-bolt ">Однодверные. Абстракция.</h2>
-                <div class="glass__itemImag popup">
+                <div class="glass__itemImag popupGlass">
                     <img src="/imag/glass1.jpg" alt="">
                 </div>
             </div>
@@ -22,7 +22,7 @@
         <a href="#" class="glass__item">
             <div class="">
                 <h2 class="glass__itemTop stile_Robot-bolt ">Однодверные. Абстракция.</h2>
-                <div class="glass__itemImag popup">
+                <div class="glass__itemImag popupGlass">
                     <img src="/imag/glass3.jpg" alt="">
                 </div>
             </div>
@@ -30,7 +30,7 @@
         <a href="#" class="glass__item">
             <div class="">
                 <h2 class="glass__itemTop stile_Robot-bolt ">Однодверные. Абстракция.</h2>
-                <div class="glass__itemImag popup">
+                <div class="glass__itemImag popupGlass">
                     <img src="/imag/glass2.jpg" alt="">
                 </div>
             </div>
@@ -38,7 +38,7 @@
         <a href="#" class="glass__item">
             <div class="">
                 <h2 class="glass__itemTop stile_Robot-bolt ">Однодверные. Абстракция.</h2>
-                <div class="glass__itemImag popup">
+                <div class="glass__itemImag popupGlass">
                     <img src="/imag/glass4.jpg" alt="">
                 </div>
             </div>
@@ -46,7 +46,7 @@
         <a href="#" class="glass__item">
             <div class="">
                 <h2 class="glass__itemTop stile_Robot-bolt ">Однодверные. Абстракция.</h2>
-                <div class="glass__itemImag popup">
+                <div class="glass__itemImag popupGlass">
                     <img src="/imag/glass4.jpg" alt="">
                 </div>
             </div>
@@ -54,7 +54,7 @@
         <a href="#" class="glass__item">
             <div class="">
                 <h2 class="glass__itemTop stile_Robot-bolt ">Однодверные. Абстракция.</h2>
-                <div class="glass__itemImag popup">
+                <div class="glass__itemImag popupGlass">
                     <img src="/imag/glass4.jpg" alt="">
                 </div>
             </div>
@@ -62,7 +62,7 @@
         <a href="#" class="glass__item">
             <div class="">
                 <h2 class="glass__itemTop stile_Robot-bolt ">Однодверные. Абстракция.</h2>
-                <div class="glass__itemImag popup">
+                <div class="glass__itemImag popupGlass">
                     <img src="/imag/glass4.jpg" alt="">
                 </div>
             </div>

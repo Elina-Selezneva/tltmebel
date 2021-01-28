@@ -1,7 +1,6 @@
-$(function () {
-    "use strict";
+$( document ).ready(function() {
 
-    $(".popup img").click(function (e) {
+    $(".popupGlass img").click(function (e) {
         e.preventDefault();
         var $src = $(this).attr("src");
         $(".show").fadeIn();
