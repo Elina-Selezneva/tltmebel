@@ -10,9 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Roboto:wght@400;700&display=swap"
           rel="stylesheet">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="https://use.fontawesome.com/4b2b3c4e4b.js"></script>
+    <link rel="stylesheet" href="css/jquery.galereya.css">
+    <!--
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    -->
+    <script src="https://use.fontawesome.com/4b2b3c4e4b.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 </head>
 <body>
 <header class="header">
@@ -203,7 +207,7 @@
         <div class="close-popup js-close-campaign"></div>
     </div>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <script type="text/javascript" src="js/jquery.pageScript.js"></script>
 </body>
 </html>

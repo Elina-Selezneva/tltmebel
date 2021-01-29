@@ -18,14 +18,16 @@
         <img src="/imag/krovat_mdf_No1.jpg" alt="" data-fullsrc="/imag/krovat_mdf_No1.jpg">
         <img src="/imag/alfa_3.jpg" alt="" data-fullsrc="/imag/alfa_3.jpg">
         <img src="/imag/alfa_5.jpg" alt="" data-fullsrc="/imag/alfa_5.jpg">
+        <div style="clear: both"></div>
     </div>
     <script type="text/javascript" src="/js/jquery.galereya.js"></script>
     <script>
-        $(function () {
+        $( document ).ready(function() {
             $('#galleryherepls').galereya({
                 wave: false,
                 spacing: 7,
             });
         });
     </script>
+    <div style="clear: both"></div>
 </main>
