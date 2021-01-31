@@ -203,11 +203,11 @@
         <div class="popup__title">Сделать заказ</div>
         <hr class="popup__hr">
         <form class="popup__form">
-            <input placeholder="Содержание заказа" type="numbers" name="call" value="" class="popup__input_widht popup__input_height-messege"/>
-            <input placeholder="Имя" type="text" name="name" value="" class="popup__input_widht popup__input_height"/>
-            <input placeholder="Телефон" type="numbers" name="call" value="" class="popup__input_widht popup__input_height"/>
-            <input placeholder="Email" type="numbers" name="username" value="" class="popup__input_widht popup__input_height"/>
-            <input placeholder="SEND MESSAGE" type="button" name="call" value="Отправить заказ" class="popup__input_button"/>
+            <textarea placeholder="Содержание заказа" name="description" class="popup__input_widht popup__input_height-messege"></textarea>
+            <input placeholder="Имя" id="name" type="text" name="name" value="" required="required" class="popup__input_widht popup__input_height"/>
+            <input placeholder="Телефон" id="phone" type="tel" name="phone" value="" required="required" class="popup__input_widht popup__input_height"/>
+            <input placeholder="Email" type="email" name="email" value="" class="popup__input_widht popup__input_height"/>
+            <input type="submit" name="call" value="Отправить заказ" class="popup__input_button"/>
         </form>
         <div class="popup__text">Мы обязательно с Вами свяжемся!</div>
         <div class="close-popup js-close-campaign"></div>
