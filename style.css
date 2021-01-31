@@ -452,8 +452,8 @@ color: #fff;
 
 .about-us__text {
     margin: 50px auto 20px auto;
-    font-size: 23px;
-    line-height: 27px;
+    font-size: 20px;
+    line-height: 30px;
     color: rgb(31, 54, 75);
     text-align: justify;
 }
@@ -491,9 +491,9 @@ color: #fff;
 }
 
 .make_credit__text_font {
-    font-size: 35px;
-    color: #000;
-    line-height: 50px;
+    font-size: 25px;
+    color: #1f364b;
+    line-height: 45px;
     text-align: justify;
 }
 
@@ -749,19 +749,20 @@ line-height: 1.48;
         width: 100%;
     }
     .footer__place {
-    width: 100%;
-    margin-bottom: 10px;
-    text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
     }
     .about-us__img{
         display: none;
     }
     .bloks6__title {
-    font-size: 37px;
+        font-size: 37px;
+        line-height: 1.24;
     }
 
     .about-us {
-    width: 100%;
+        width: 100%;
     }
 
     .make_cradit {

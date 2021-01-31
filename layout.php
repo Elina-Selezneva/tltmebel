@@ -179,7 +179,7 @@
 </header>
 <div class="main-content">
     <main class="content"><?php
-        include 'components/product.php';
+        include 'components/sand-img.php';
         ?></main>
 </div>
 
