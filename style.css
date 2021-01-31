@@ -624,6 +624,7 @@ line-height: 1.48;
     display: block;
     width: 90%;
     margin: 5px auto 5px auto;
+    padding: 5px;
 }
 .popup__input_height-messege {
     height: 150px;
@@ -875,6 +876,16 @@ line-height: 1.48;
     .sand_img {
         width: 320px;
     }
+    .header__popup {
+        padding: 55px 6px 0;
+    }
+    .popup__title {
+        font-size: 35px;
+    }
+    .popup__input_button {
+        width: 220px;
+    }
+
 }
 
 
