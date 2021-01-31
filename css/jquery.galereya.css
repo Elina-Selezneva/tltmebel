@@ -111,8 +111,6 @@
     /* Gallery grid(begin) */
     .galereya-grid {
         position: relative;
-        top: 50px;
-
         width: 100%;
         height: 100%;
         margin: auto;
@@ -120,13 +118,10 @@
 
         .galereya-cell {
             position: absolute;
-
             display: none;
             overflow: hidden;
-
             width: 150px;
             padding: 0 1px; /* Webkit padding on transition fix */
-
             cursor: pointer;
             transition-duration: 200ms
         }
@@ -351,8 +346,8 @@
                 background: #1a1a1a url('../img/black_lozenge.png');
                 background-size: 38px 38px;
 
-                -webkit-box-shadow: 0px 0px 20px 4px #000;
-                box-shadow: 0px 0px 20px 4px #000;
+                -webkit-box-shadow: 0 0 20px 4px #000;
+                box-shadow: 0 0 20px 4px #000;
                 -webkit-transition: -webkit-transform .5s ease-out;
                 -moz-transition: -moz-transform .5s ease-out;
                 transition: transform .5s ease-out;

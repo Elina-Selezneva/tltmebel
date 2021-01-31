@@ -10,9 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Roboto:wght@400;700&display=swap"
           rel="stylesheet">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="https://use.fontawesome.com/4b2b3c4e4b.js"></script>
+    <link rel="stylesheet" href="css/jquery.galereya.css">
+    <!--
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    -->
+    <script src="https://use.fontawesome.com/4b2b3c4e4b.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 </head>
 <body>
 <header class="header">
@@ -22,11 +26,15 @@
                 <div class="little-text">Интернет-магазин мебели в <br> Тольятти от Татьяны Ананченко</div>
             </div>
         </div>
-        <div class="header__phone big_text flex_center stile_Garamond-bolt"><i class="fa fa-phone phone-yellow"
-                                                                               aria-hidden="true"></i>+7-905-306-87-88
-        </div>
-        <div class="header__button-make-order flex_center">
-            <div class="button js-button-campaign flex_center button_yellow">Сделать заказ</div>
+        <div class="header__infoBut">
+            <div class="header__phone big_text flex_center stile_Garamond-bolt">
+                <a href="tel:+79053068788"><i class="fa fa-phone phone-yellow" aria-hidden="true"></i>
+                +7-905-306-87-88
+                </a>
+            </div>
+            <div class="header__button-make-order flex_center">
+                <div class="button js-button-campaign flex_center button_yellow">Сделать заказ</div>
+            </div>
         </div>
     </div>
     <div id="menu">
@@ -170,7 +178,9 @@
     <hr class="header__hr">
 </header>
 <div class="main-content">
-    <main class="content"><?= $content; ?></main>
+    <main class="content"><?php
+        include 'components/sand-img.php';
+        ?></main>
 </div>
 
 <footer class="footer">
@@ -203,7 +213,7 @@
         <div class="close-popup js-close-campaign"></div>
     </div>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <script type="text/javascript" src="js/jquery.pageScript.js"></script>
 </body>
 </html>

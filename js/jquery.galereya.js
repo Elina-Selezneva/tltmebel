@@ -39,7 +39,9 @@
             currentSlideIndex,
             currentCategory,
             isSliderOpened = false,
-            slideShowInterval;
+            slideShowInterval,
+            maxHeight = 0;
+        ;
 
         /**
          * Default options
@@ -195,6 +197,7 @@
             }
 
             gridW = rowCount * cellW + (rowCount - 1) * self.options.spacing;
+            maxHeight = 0;
         };
 
         /**
@@ -411,9 +414,20 @@
                 top = 0;
             }
 
+            var heightCell = cell.offsetHeight + top;
+
+            if (heightCell > maxHeight) {
+                maxHeight = heightCell + 50;
+                CalcHeight();
+            }
+
             cell.style.top = top + 'px';
             cell.style.left = left + 'px';
         };
+
+        var CalcHeight = function () {
+            $grid.height(maxHeight);
+        }
 
         /**
          * Clear the grid
@@ -481,6 +495,7 @@
             for (var i = 0, len = visibleCells.length; i < len; i++) {
                 placeCell(visibleCells[i], i);
             }
+            CalcHeight();
         };
 
         /**
