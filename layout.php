@@ -46,20 +46,20 @@
                 <!--                     выпыдыющее меню -->
                 <ul class="drop">
 
-                        <li><a href="#">Диваны</a></li>
+                        <li><a href="#" class="drop__a">Диваны</a></li>
 
 
-                        <li><a href="#">Кресла</a></li>
+                        <li><a href="#" class="drop__a">Кресла</a></li>
 
                     <!--                         пункт выпадающего меню -->
 
-                        <li><a href="#">Кровати</a></li>
+                        <li><a href="#" class="drop__a">Кровати</a></li>
 
 
-                        <li><a href="#">Матрасы</a></li>
+                        <li><a href="#" class="drop__a">Матрасы</a></li>
 
 
-                        <li><a href="#">Двух-ярусные кровати</a></li>
+                        <li><a href="#" class="drop__a">Двух-ярусные кровати</a></li>
 
                 </ul>
                 <!--                 drop menu - end -->
@@ -69,31 +69,31 @@
                 <!--                     выпыдыющее меню -->
                 <ul class="drop">
 
-                        <li><a href="#">Кухни</a></li>
+                        <li><a href="#" class="drop__a">Кухни</a></li>
 
-                        <li><a href="#">Спальни</a></li>
+                        <li><a href="#" class="drop__a">Спальни</a></li>
 
                     <!--                         пункт выпадающего меню -->
 
-                        <li><a href="#">Шкафы-Купе</a></li>
+                        <li><a href="#" class="drop__a">Шкафы-Купе</a></li>
 
 
-                        <li><a href="#">Стенки</a></li>
+                        <li><a href="#" class="drop__a">Стенки</a></li>
 
 
-                        <li><a href="#">Стенки-горки</a></li>
+                        <li><a href="#" class="drop__a">Стенки-горки</a></li>
 
 
-                        <li><a href="#">Прихожие</a></li>
+                        <li><a href="#" class="drop__a">Прихожие</a></li>
 
 
-                        <li><a href="#">Обеденные зоны</a></li>
+                        <li><a href="#" class="drop__a">Обеденные зоны</a></li>
 
 
-                        <li><a href="#">Столы</a></li>
+                        <li><a href="#" class="drop__a">Столы</a></li>
 
 
-                        <li><a href="#">Комоды</a></li>
+                        <li><a href="#" class="drop__a">Комоды</a></li>
 
                 </ul>
             </li>
@@ -116,20 +116,20 @@
                                                                           aria-hidden="true"></i></span>
                         <ul class="drop">
 
-                                <li><a href="#">Диваны  </a></li>
+                                <li><a href="#" class="drop__a">Диваны  </a></li>
 
 
-                                <li><a href="#">Кресла  </a></li>
+                                <li><a href="#" class="drop__a">Кресла  </a></li>
 
                             <!--                         пункт выпадающего меню -->
 
-                                <li><a href="#">Кровати  </a></li>
+                                <li><a href="#" class="drop__a">Кровати  </a></li>
 
 
-                                <li><a href="#">Матрасы  </a></li>
+                                <li><a href="#" class="drop__a">Матрасы  </a></li>
 
 
-                                <li><a href="#">Двух-ярусные кровати  </a></li>
+                                <li><a href="#" class="drop__a">Двух-ярусные кровати  </a></li>
 
                         </ul>
                     </div>
@@ -143,25 +143,25 @@
                                                                             aria-hidden="true"></i></span>
                         <ul class="drop">
 
-                                <li> <a href="#">Кухни  </a></li>
+                                <li> <a href="#" class="drop__a">Кухни  </a></li>
 
-                                <li> <a href="#">Спальни  </a></li>
+                                <li> <a href="#" class="drop__a">Спальни  </a></li>
 
                             <!--                         пункт выпадающего меню -->
 
-                                <li> <a href="#">Шкафы-Купе  </a></li>
+                                <li> <a href="#" class="drop__a">Шкафы-Купе  </a></li>
 
-                                <li><a href="#">Стенки</a></li>
+                                <li><a href="#" class="drop__a">Стенки</a></li>
 
-                                <li> <a href="#">Стенки-горки  </a></li>
+                                <li> <a href="#" class="drop__a">Стенки-горки  </a></li>
 
-                                <li> <a href="#">Прихожие  </a></li>
+                                <li> <a href="#" class="drop__a">Прихожие  </a></li>
 
-                                <li> <a href="#">Обеденные зоны  </a></li>
+                                <li> <a href="#" class="drop__a">Обеденные зоны </a></li>
 
-                                <li> <a href="#">Столы  </a></li>
+                                <li> <a href="#" class="drop__a">Столы  </a></li>
 
-                                <li> <a href="#">Комоды  </a></li>
+                                <li> <a href="#" class="drop__a">Комоды  </a></li>
 
                         </ul>
                     </div>
@@ -199,11 +199,17 @@
     </div>
 </footer>
 <div class="overlay js-overlay-campaign">
-    <div class="popup js-popup-campaign">
-        <h2>Внимание, акция!</h2>
-        На протяжении 40 лет BMW 3 серии представляет собой идеальное воплощение спортивного седана. В шестом поколении
-        комбинация динамики, непревзойденной управляемости, инновационных функций и максимальной практичности впечатляет
-        как никогда раньше.
+    <div class="header__popup js-popup-campaign">
+        <div class="popup__title">Сделать заказ</div>
+        <hr class="popup__hr">
+        <form class="popup__form">
+            <input placeholder="Содержание заказа" type="numbers" name="call" value="" class="popup__input_widht popup__input_height-messege"/>
+            <input placeholder="Имя" type="text" name="name" value="" class="popup__input_widht popup__input_height"/>
+            <input placeholder="Телефон" type="numbers" name="call" value="" class="popup__input_widht popup__input_height"/>
+            <input placeholder="Email" type="numbers" name="username" value="" class="popup__input_widht popup__input_height"/>
+            <input placeholder="SEND MESSAGE" type="button" name="call" value="Отправить заказ" class="popup__input_button"/>
+        </form>
+        <div class="popup__text">Мы обязательно с Вами свяжемся!</div>
         <div class="close-popup js-close-campaign"></div>
     </div>
 </div>
